@@ -1,20 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #1f2937;
 }
 header {
   display: flex;
   background-color: #1f2937;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 .logo {
   flex: 1;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 .logo h1 {
   color: white;
   font-size: 1.3em;
   margin-top: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .header-links {
   flex: 1;
@@ -27,12 +30,61 @@ ul {
   display: flex;
   gap: 10px;
 
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
   margin-top: 20px;
   flex-wrap: nowrap;
 }
 .header-links li {
+  font-size: 0.7em;
+  color: lightgrey;
+  padding-right: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.section1 {
+  display: flex;
+  height: 230px;
+  background-color: #1f2937;
+  flex-direction: row;
+
+  margin-top: 40px;
+
+  gap: 10px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.item1 {
+  flex: 1;
+  padding-top: 40px;
+  max-height: 230px;
+}
+.item2 {
+  flex: 1;
+}
+.item2 img {
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 200px;
+}
+h2 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.item1 p {
+  color: lightgrey;
   font-size: 0.8em;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-left: 2px;
+  padding-bottom: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: #3882f6;
+  padding: 5px 30px 5px 30px;
+  border-radius: 6px;
+  border: none;
   color: white;
 }
