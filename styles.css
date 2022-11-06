@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: #1f2937;
+}
+.logo {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.logo h1 {
+  color: white;
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+.header-links {
+  flex: 1;
+  display: inline-block;
+
+  margin-right: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+.header-links li {
+  font-size: 0.8em;
+  color: white;
+}
